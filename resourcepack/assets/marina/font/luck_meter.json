@@ -1,0 +1,21 @@
+{
+  "providers": [{
+      "type": "bitmap",
+      "file": "marina:gui/luck_meter_icons.png",
+      "ascent": 13,
+      "height": 20,
+      "chars": [
+        "lu"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "marina:gui/negative_space.png",
+      "ascent": -32768,
+      "height": -3,
+      "chars": [
+        "\uF000"
+      ]
+    }
+  ]
+}

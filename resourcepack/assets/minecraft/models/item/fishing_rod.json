@@ -1,0 +1,56 @@
+{
+    "parent": "item/handheld_rod",
+    "textures": {
+        "layer0": "item/fishing_rod"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "cast": 1
+            },
+            "model": "item/fishing_rod_cast"
+        },
+        {
+            "predicate": {"custom_model_data": 422000}, "model": "marina:items/obsidian_rod"
+        },
+        {
+            "predicate": {"custom_model_data": 422000,"cast": 1}, "model": "marina:items/obsidian_rod_cast"
+        },
+        {
+            "predicate": {"custom_model_data": 422001}, "model": "marina:items/emperor_rod"
+        },
+        {
+            "predicate": {"custom_model_data": 422001,"cast": 1}, "model": "marina:items/emperor_rod_cast"
+        },
+        {
+            "predicate": {"custom_model_data": 422002}, "model": "marina:items/reinforced_rod"
+        },
+        {
+            "predicate": {"custom_model_data": 422002,"cast": 1}, "model": "marina:items/reinforced_rod_cast"
+        },
+        {
+            "predicate": {"custom_model_data": 422003}, "model": "marina:items/netherite_rod"
+        },
+        {
+            "predicate": {"custom_model_data": 422003,"cast": 1}, "model": "marina:items/netherite_rod_cast"
+        },
+        {
+            "predicate": {"custom_model_data": 422004}, "model": "marina:items/diamond_rod"
+        },
+        {
+            "predicate": {"custom_model_data": 422004,"cast": 1}, "model": "marina:items/diamond_rod_cast"
+        },
+        {
+            "predicate": {"custom_model_data": 422005}, "model": "marina:items/dual_rod"
+        },
+        {
+            "predicate": {"custom_model_data": 422005,"cast": 1}, "model": "marina:items/dual_rod_cast"
+        },
+        {
+            "predicate": {"custom_model_data": 422006}, "model": "marina:items/midas_rod"
+        },
+        {
+            "predicate": {"custom_model_data": 422006,"cast": 1}, "model": "marina:items/midas_rod_cast"
+        }
+    ]
+}

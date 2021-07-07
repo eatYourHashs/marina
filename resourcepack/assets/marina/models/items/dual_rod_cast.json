@@ -1,0 +1,6 @@
+{
+  "parent": "item/fishing_rod_cast",
+  "textures": {
+    "layer0": "marina:items/dual_rod_cast"
+  }
+}

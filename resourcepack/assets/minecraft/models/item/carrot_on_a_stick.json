@@ -1,0 +1,32 @@
+{
+    "parent": "item/handheld_rod",
+    "textures": {
+        "layer0": "item/carrot_on_a_stick"
+    },
+    "overrides": [
+        {
+            "predicate": {"custom_model_data": 422000}, "model": "marina:items/luck_meter"
+        },
+        {
+            "predicate": {"custom_model_data": 422001}, "model": "marina:items/luck_meter_inactive"
+        },
+        {
+            "predicate": {"custom_model_data": 422002}, "model": "marina:items/rainmaker"
+        },
+        {
+            "predicate": {"custom_model_data": 422003}, "model": "marina:items/fish_chum_bucket"
+        },
+        {
+            "predicate": {"custom_model_data": 422004}, "model": "marina:items/cursed_chum_bucket"
+        },
+        {
+            "predicate": {"custom_model_data": 422005}, "model": "marina:items/exotic_chum_bucket"
+        },
+        {
+            "predicate": {"custom_model_data": 422006}, "model": "marina:items/consecrated_chum_bucket"
+        },
+        {
+            "predicate": {"custom_model_data": 422007}, "model": "marina:items/golden_chum_bucket"
+        }
+    ]
+}

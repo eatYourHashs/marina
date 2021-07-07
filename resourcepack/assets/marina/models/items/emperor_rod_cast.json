@@ -1,0 +1,6 @@
+{
+  "parent": "item/fishing_rod_cast",
+  "textures": {
+    "layer0": "marina:items/emperor_rod_cast"
+  }
+}
