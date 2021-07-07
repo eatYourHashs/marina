@@ -1,0 +1,68 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "text": "Grants ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "-2 Luck",
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
+                    "text": " but reels two items per catch.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.luck",
+                  "name": "dual_rod",
+                  "amount": -2,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:generic.luck",
+                  "name": "dual_rod",
+                  "amount": -2,
+                  "operation": "addition",
+                  "slot": "offhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Dual Rod",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:2,CustomModelData:422005,mar_id:\"dual_rod\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

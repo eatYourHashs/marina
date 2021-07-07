@@ -1,0 +1,16 @@
+{
+	"criteria": {
+	  "requirement": {
+		"trigger": "minecraft:fishing_rod_hooked",
+		"conditions": {
+		  "item": {
+			"item": "minecraft:structure_void",
+			"nbt": "{mar_id:\"junk_ph\"}"
+		  }
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "marina:entity/player/fish_junk_mob"
+	}
+  }

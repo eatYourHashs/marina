@@ -1,0 +1,75 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "marina:items/golden_chum_bucket"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "marina:items/exotic_chum_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 30,
+                "max": 40
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "marina:items/reinforced_rod",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 25,
+                "max": 35
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "marina:items/diamond_rod",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 25,
+                "max": 35
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "marina:items/obsidian_rod",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 25,
+                "max": 35
+              },
+              "treasure": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

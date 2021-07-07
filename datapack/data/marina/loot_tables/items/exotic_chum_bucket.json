@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+		  "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                  {
+                    "text": "Right click on water to place,",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "increasing rare fish chance while nearby for 5 minutes.",
+                    "color": "gray",
+                    "italic": false
+                  }
+              ]
+            },
+            {
+			  "function": "minecraft:set_name",
+			  "name": {"text":"Exotic Chum Bucket","italic":false}
+			},
+			{
+              "function": "minecraft:set_nbt",
+              "tag":"{RepairCost:99,CustomModelData:422005,mar_id:\"exotic_chum_bucket\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

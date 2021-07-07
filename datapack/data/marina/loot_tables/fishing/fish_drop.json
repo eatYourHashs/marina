@@ -1,0 +1,964 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 100,
+          "name": "marina:fish/enderpod"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "quality": 1,
+          "name": "marina:fish/shullusk"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "quality": 3,
+          "name": "marina:fish/shullusk",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "mar.exotic": 1
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:salmon"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 50,
+          "name": "marina:fish/trout"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "quality": 1,
+          "name": "marina:fish/prismatic_trout"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "quality": 3,
+          "name": "marina:fish/prismatic_trout",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "mar.exotic": 1
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "biome": "minecraft:frozen_river"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "minecraft:salmon"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "marina:fish/yellow_perch"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 15,
+          "name": "marina:fish/minnow"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "marina:fish/bass"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 15,
+          "name": "marina:fish/walleye"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "marina:fish/catfish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "quality": 1,
+          "name": "marina:fish/armored_sturgeon"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "quality": 3,
+          "name": "marina:fish/armored_sturgeon",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "mar.exotic": 1
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "biome": "minecraft:river"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 15,
+          "name": "marina:fish/fungerfish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 80,
+          "name": "marina:fish/salshroom"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "quality": 1,
+          "name": "marina:fish/fungopod"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "quality": 3,
+          "name": "marina:fish/fungopod",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "mar.exotic": 1
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:alternative",
+          "terms": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:mushroom_field_shore"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:mushroom_fields"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 20,
+          "name": "marina:fish/angelfish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 40,
+          "name": "marina:fish/neon_tetra"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 40,
+          "name": "marina:fish/catfish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "quality": 1,
+          "name": "marina:fish/creeperfish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "quality": 3,
+          "name": "marina:fish/creeperfish",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "mar.exotic": 1
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:alternative",
+          "terms": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:modified_jungle_edge"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:modified_jungle"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:jungle_hills"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:jungle_edge"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:jungle"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:bamboo_jungle_hills"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:bamboo_jungle"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 60,
+          "name": "marina:fish/minnow"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 40,
+          "name": "marina:fish/mudfish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "quality": 1,
+          "name": "marina:fish/muckod"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "quality": 3,
+          "name": "marina:fish/muckod",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "mar.exotic": 1
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:alternative",
+          "terms": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:swamp_hills"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:swamp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 30,
+          "name": "marina:fish/walleye"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 35,
+          "name": "marina:fish/yellow_perch"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 35,
+          "name": "marina:fish/trout"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "quality": 1,
+          "name": "marina:fish/the_fish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "quality": 3,
+          "name": "marina:fish/the_fish",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "mar.exotic": 1
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:alternative",
+          "terms": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:tall_birch_hills"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:tall_birch_forest"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:wooded_hills"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:sunflower_plains"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:shattered_savanna_plateau"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:shattered_savanna"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:savanna_plateau"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:savanna"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:plains"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:forest"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:flower_forest"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:dark_forest_hills"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:dark_forest"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:birch_forest_hills"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:birch_forest"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 100,
+          "name": "marina:fish/pupfish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "quality": 1,
+          "name": "marina:fish/valley_pupfish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "quality": 3,
+          "name": "marina:fish/valley_pupfish",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "mar.exotic": 1
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:alternative",
+          "terms": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:wooded_badlands_plateau"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:modified_wooded_badlands_plateau"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:modified_badlands_plateau"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:eroded_badlands"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:desert_lakes"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:desert_hills"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:desert"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:badlands_plateau"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:badlands"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 20,
+          "name": "marina:fish/trout"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "minecraft:salmon"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "minecraft:cod"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "quality": 1,
+          "name": "marina:fish/snowtrout"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "quality": 3,
+          "name": "marina:fish/snowtrout",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "mar.exotic": 1
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:alternative",
+          "terms": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:snowy_tundra"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:snowy_beach"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:ice_spikes"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 20,
+          "name": "marina:fish/walleye"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 30,
+          "name": "marina:fish/trout"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "minecraft:salmon"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "quality": 1,
+          "name": "marina:fish/frostminnow"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "quality": 3,
+          "name": "marina:fish/frostminnow",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "mar.exotic": 1
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:alternative",
+          "terms": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:taiga_mountains"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:taiga_hills"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:taiga"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:snowy_taiga_mountains"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:snowy_taiga_hills"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:snowy_taiga"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:giant_tree_taiga_hills"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:giant_tree_taiga"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:giant_spruce_taiga_hills"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:giant_spruce_taiga"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 100,
+          "name": "marina:fish/minnow"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "quality": 1,
+          "name": "marina:fish/emerald_trout"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "quality": 3,
+          "name": "marina:fish/emerald_trout",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "mar.exotic": 1
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:alternative",
+          "terms": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:wooded_mountains"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:snowy_mountains"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:mountains"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:mountain_edge"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:modified_gravelly_mountains"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:gravelly_mountains"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "quality": 1,
+          "name": "minecraft:tropical_fish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "quality": 3,
+          "name": "minecraft:tropical_fish",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "mar.exotic": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "marina:fish/squid"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 15,
+          "name": "marina:fish/bass"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "marina:fish/shrimp"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:pufferfish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:salmon"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "minecraft:cod"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:alternative",
+          "terms": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:stone_shore"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:warm_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:lukewarm_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:frozen_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:deep_warm_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:deep_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:deep_lukewarm_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:deep_frozen_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:beach"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:deep_cold_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:cold_ocean"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

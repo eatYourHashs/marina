@@ -1,0 +1,26 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "  $",
+    " hs",
+    "g s"
+  ],
+  "key": {
+    "$": {
+      "item": "minecraft:sponge"
+    },
+    "s": {
+      "item": "minecraft:string"
+    },
+    "h": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book",
+    "count": 1
+  }
+}

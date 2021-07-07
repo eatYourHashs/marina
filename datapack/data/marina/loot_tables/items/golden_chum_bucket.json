@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+		  "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                  {
+                    "text": "Right click on water to place,",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "increasing crate chance while nearby for 5 minutes.",
+                    "color": "gray",
+                    "italic": false
+                  }
+              ]
+            },
+            {
+			  "function": "minecraft:set_name",
+			  "name": {"text":"Golden Chum Bucket","italic":false}
+			},
+			{
+              "function": "minecraft:set_nbt",
+              "tag":"{RepairCost:99,CustomModelData:422007,mar_id:\"golden_chum_bucket\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

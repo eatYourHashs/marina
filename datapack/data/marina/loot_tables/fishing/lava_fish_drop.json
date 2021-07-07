@@ -1,0 +1,145 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 100,
+          "name": "marina:fish/rotfish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "quality": 1,
+          "name": "marina:fish/boneserpent"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "biome": "minecraft:nether_wastes"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 100,
+          "name": "marina:fish/soulmon"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "quality": 1,
+          "name": "marina:fish/ghastly_squid"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "biome": "minecraft:soul_sand_valley"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 100,
+          "name": "marina:fish/warpod"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "quality": 1,
+          "name": "marina:fish/wartfish"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "biome": "minecraft:warped_forest"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 100,
+          "name": "marina:fish/crimfeeder"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "quality": 1,
+          "name": "marina:fish/codlin"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "biome": "minecraft:crimson_forest"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 100,
+          "name": "marina:fish/bashrimp"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "quality": 1,
+          "name": "marina:fish/scyllabrim"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "biome": "minecraft:basalt_deltas"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "marina:fish/obsidibass"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "dimension": "minecraft:the_nether"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "marina:items/consecrated_chum_bucket"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "marina:items/cursed_chum_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:luck\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "marina:items/fish_chum_bucket"
+        }
+      ]
+    }
+  ]
+}

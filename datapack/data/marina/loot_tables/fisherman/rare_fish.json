@@ -1,0 +1,77 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "marina:fish/shullusk"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "marina:fish/boneserpent"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "marina:fish/ghastly_squid"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "marina:fish/scyllabrim"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "marina:fish/codlin"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "marina:fish/wartfish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "marina:fish/prismatic_trout"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "marina:fish/armored_sturgeon"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "marina:fish/fungopod"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "marina:fish/creeperfish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "marina:fish/muckod"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "marina:fish/the_fish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "marina:fish/valley_pupfish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "marina:fish/snowtrout"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "marina:fish/frostminnow"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "marina:fish/emerald_trout"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish"
+        }
+      ]
+    }
+  ]
+}

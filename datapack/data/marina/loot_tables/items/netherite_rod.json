@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+		  "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "text": "Grants ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "+2 Luck",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": " when fishing in lava,",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "and does not catch common crates from lava.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+			  "function": "minecraft:set_name",
+			  "name": {"text":"Netherite Rod","italic":false}
+			},
+			{
+              "function": "minecraft:set_nbt",
+              "tag":"{HideFlags:2,CustomModelData:422003,mar_id:\"netherite_rod\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

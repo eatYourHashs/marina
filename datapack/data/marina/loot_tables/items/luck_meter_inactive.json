@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+		  "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                  {
+                    "text": "While active, shows luck on your hotbar.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Right click to show nearby luck sources.",
+                    "color": "gray",
+                    "italic": false
+                  },{
+                    "text": "Sneak right click to activate.",
+                    "color": "gray",
+                    "italic": false
+                  }
+              ]
+            },
+            {
+			  "function": "minecraft:set_name",
+			  "name": {"text":"Luck Meter","italic":false}
+			},
+			{
+              "function": "minecraft:set_nbt",
+              "tag":"{Unbreakable:1b,HideFlags:6,CustomModelData:422001,mar_id:\"luck_meter_inactive\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+	"display": {
+			"title": "Marina",
+			"description": "An expansion to MC's fishing.",
+			"icon": {
+				"item": "minecraft:fishing_rod",
+				"nbt": "{CustomModelData:422001}"
+			},
+			"announce_to_chat": false,
+			"show_toast": false
+	},
+	"parent": "global:hashs",
+	"criteria": {
+			"trigger": {
+					"trigger": "minecraft:tick"
+			}
+	
+	}
+}

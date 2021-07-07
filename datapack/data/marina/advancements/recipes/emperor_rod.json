@@ -1,0 +1,15 @@
+{
+  "parent": "marina:recipes/root",
+  "rewards": {
+    "function": "marina:entity/player/nbt_recipe",
+    "loot": ["marina:items/emperor_rod"]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "marina:emperor_rod"
+      }
+    }
+  }
+}

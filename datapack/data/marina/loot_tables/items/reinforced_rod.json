@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "text": "Grants ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "+1 Luck",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": ".",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.luck",
+                  "name": "reinforced_rod",
+                  "amount": 1,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Reinforced Rod",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:2,CustomModelData:422002,mar_id:\"reinforced_rod\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

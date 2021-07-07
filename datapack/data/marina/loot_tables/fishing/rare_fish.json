@@ -1,0 +1,595 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "marina:fish/shullusk"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "marina:fish/prismatic_trout"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "biome": "minecraft:frozen_river"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "marina:fish/armored_sturgeon"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "biome": "minecraft:river"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "marina:fish/fungopod"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:alternative",
+          "terms": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:mushroom_field_shore"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:mushroom_fields"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "marina:fish/creeperfish"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:alternative",
+          "terms": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:modified_jungle_edge"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:modified_jungle"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:jungle_hills"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:jungle_edge"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:jungle"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:bamboo_jungle_hills"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:bamboo_jungle"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "marina:fish/muckod"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:alternative",
+          "terms": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:swamp_hills"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:swamp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "marina:fish/the_fish"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:alternative",
+          "terms": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:tall_birch_hills"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:tall_birch_forest"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:wooded_hills"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:sunflower_plains"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:shattered_savanna_plateau"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:shattered_savanna"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:savanna_plateau"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:savanna"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:plains"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:forest"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:flower_forest"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:dark_forest_hills"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:dark_forest"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:birch_forest_hills"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:birch_forest"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "marina:fish/valley_pupfish"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:alternative",
+          "terms": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:wooded_badlands_plateau"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:modified_wooded_badlands_plateau"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:modified_badlands_plateau"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:eroded_badlands"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:desert_lakes"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:desert_hills"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:desert"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:badlands_plateau"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:badlands"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "marina:fish/snowtrout"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:alternative",
+          "terms": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:snowy_tundra"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:snowy_beach"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:ice_spikes"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "marina:fish/frostminnow"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:alternative",
+          "terms": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:taiga_mountains"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:taiga_hills"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:taiga"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:snowy_taiga_mountains"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:snowy_taiga_hills"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:snowy_taiga"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:giant_tree_taiga_hills"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:giant_tree_taiga"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:giant_spruce_taiga_hills"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:giant_spruce_taiga"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "marina:fish/emerald_trout"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:alternative",
+          "terms": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:wooded_mountains"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:snowy_mountains"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:mountains"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:mountain_edge"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:modified_gravelly_mountains"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:gravelly_mountains"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:alternative",
+          "terms": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:stone_shore"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:warm_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:lukewarm_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:frozen_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:deep_warm_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:deep_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:deep_lukewarm_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:deep_frozen_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:beach"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:deep_cold_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:cold_ocean"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

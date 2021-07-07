@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "items": ["minecraft:fishing_rod"],
+        "nbt": "{mar_id:\"emperor_rod\"}"
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+		  "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                  {
+                    "text": "Right click on water to place,",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  [
+                    {
+                      "text": "granting ",
+                      "color": "gray",
+                      "italic": false
+                    },
+                    {
+                      "text": "+1 Luck",
+                      "color": "blue",
+                      "italic": false
+                    },
+                    {
+                      "text": " while nearby for 5 minutes.",
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ]
+              ]
+            },
+            {
+			  "function": "minecraft:set_name",
+			  "name": {"text":"Fish Chum Bucket","italic":false}
+			},
+			{
+              "function": "minecraft:set_nbt",
+              "tag":"{RepairCost:99,CustomModelData:422003,mar_id:\"fish_chum_bucket\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

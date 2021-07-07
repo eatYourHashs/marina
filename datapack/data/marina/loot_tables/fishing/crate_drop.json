@@ -1,0 +1,83 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "quality": 1,
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{LootTable:\"marina:crates/legendary\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text":"Sunken Treasure","italic":false}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "quality": 2,
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{LootTable:\"marina:crates/epic\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text":"Sunken Treasure","italic":false}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "quality": 1,
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{LootTable:\"marina:crates/rare\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text":"Sunken Treasure","italic":false}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{LootTable:\"marina:crates/common\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text":"Sunken Treasure","italic":false}
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "nbt": "{mar_id:\"diamond_rod\"}"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

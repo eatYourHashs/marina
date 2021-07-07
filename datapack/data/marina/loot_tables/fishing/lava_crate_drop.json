@@ -1,0 +1,178 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "quality": 1,
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{LootTable:\"marina:crates/legendary\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text":"Sunken Treasure","italic":false}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "quality": 2,
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{LootTable:\"marina:crates/epic\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text":"Sunken Treasure","italic":false}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "quality": 1,
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{LootTable:\"marina:crates/rare\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text":"Sunken Treasure","italic":false}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{LootTable:\"marina:crates/common\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text":"Sunken Treasure","italic":false}
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "nbt": "{mar_id:\"netherite_rod\"}"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "dimension": "minecraft:overworld"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "quality": 1,
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{LootTable:\"marina:crates/lava_legendary\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text":"Infernal Trove","italic":false}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "quality": 2,
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{LootTable:\"marina:crates/lava_epic\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text":"Infernal Trove","italic":false}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "quality": 1,
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{LootTable:\"marina:crates/lava_rare\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text":"Infernal Trove","italic":false}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{LootTable:\"marina:crates/lava_common\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text":"Infernal Trove","italic":false}
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "nbt": "{mar_id:\"netherite_rod\"}"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      ]
+    }
+  ]
+}

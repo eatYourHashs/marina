@@ -1,0 +1,6 @@
+scoreboard players set temp mar.dummy 0
+execute store success score temp mar.dummy as @e[sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:tropical_fish"}}] at @s run function marina:entity/item/exotic_replace
+execute unless score temp mar.dummy matches 1.. store success score temp mar.dummy as @e[sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:cod"}}] at @s run function marina:entity/item/exotic_replace
+execute unless score temp mar.dummy matches 1.. store success score temp mar.dummy as @e[sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:salmon"}}] at @s run function marina:entity/item/exotic_replace
+execute unless score temp mar.dummy matches 1.. store success score temp mar.dummy as @e[sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:pufferfish"}}] at @s run function marina:entity/item/exotic_replace
+execute unless score temp mar.dummy matches 1.. store success score temp mar.dummy as @e[sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:chest"}}] at @s run function marina:entity/item/exotic_replace

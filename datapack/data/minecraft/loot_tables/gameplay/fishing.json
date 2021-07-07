@@ -1,0 +1,131 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "quality": 1,
+          "name": "minecraft:gold_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 9,
+          "quality": 1,
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 90,
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "nbt": "{mar_id:\"midas_rod\"}"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "quality": -2,
+          "name": "marina:fishing/junk_drop"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "quality": 1,
+          "name": "marina:fishing/crate_drop",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "fishing_hook": {
+                  "in_open_water": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 88,
+          "quality": 0,
+          "name": "marina:fishing/fish_drop"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "nbt": "{mar_id:\"midas_rod\"}"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "quality": -2,
+          "name": "marina:fishing/junk_drop"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "quality": 1,
+          "name": "marina:fishing/crate_drop",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "fishing_hook": {
+                  "in_open_water": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 88,
+          "quality": 0,
+          "name": "marina:fishing/fish_drop"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "nbt": "{mar_id:\"dual_rod\"}"
+          }
+        }
+      ]
+    }
+  ]
+}
